@@ -57,5 +57,5 @@ func (controller *AccountController) GetAccountId(w http.ResponseWriter, r *http
 	w.Header().Set("Content-type", "application/json")
 	w.WriteHeader(http.StatusOK)
 	w.Write(message)
-
+	//
 }
